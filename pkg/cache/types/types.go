@@ -49,5 +49,6 @@ const (
 	Runtime
 	ExtensionConfig
 	RateLimitConfig
+	NameTable
 	UnknownType // token to count the total number of supported types
 )

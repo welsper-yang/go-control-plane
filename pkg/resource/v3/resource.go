@@ -29,6 +29,9 @@ const (
 	// Rate Limit service
 	RateLimitConfigType = APITypePrefix + "ratelimit.config.ratelimit.v3.RateLimitConfig"
 
+	// Add aggregated SotW Name Table Service
+	NameTableType = APITypePrefix + "istio.networking.nds.v1.NameTable"
+
 	// AnyType is used only by ADS
 	AnyType = ""
 )
